@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.picture {
+    height: 100vh;
+    margin: 0;
+    background: url("../img/cloud.png") top 50px center / auto 200px repeat-x,
+                url("../img/sun.png") top right / auto 250px no-repeat,
+                url("../img/grass.png") bottom center / auto 150px repeat-x,
+                url("../img/eiffel_tower.png") bottom left / auto 800px no-repeat,
+                #f5fcff;
+}
+.paris {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -250px;
+    background: url("../img/wine.png") top 43% right 27% / auto 110px no-repeat,
+                url("../img/moustache111.png") bottom 50% left 46% / auto 96px no-repeat,
+                url("../img/magic_hat.png") top 5% left 46% / auto 108px no-repeat,
+                url("../img/glass.png") top 27% left 37% / auto 75px no-repeat,
+                url("../img/cigarette.png") bottom 42% left 19% / auto 60px no-repeat,
+                url("../img/smoke.png") top 48% left 11% / auto 70px no-repeat,
+                url("../img/grass.png") bottom center / auto 150px repeat-x,
+                url("../img/deer.png") bottom center / auto 500px no-repeat;
+}
